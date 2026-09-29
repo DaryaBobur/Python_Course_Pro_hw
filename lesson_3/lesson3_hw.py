@@ -29,6 +29,7 @@ def amount_number(first_num, second_num):
 print(amount_number(2, 3))
 
 # Створіть функцію яка приймає 2 числа типу int, виконує операцію ділення та повертає чілу частину і залишок.
+
 def numbers(first_num, second_num):
     return divmod(first_num, second_num)
 
@@ -44,7 +45,6 @@ def numbers(first_num, second_num):
 print(numbers(13, 2))
 
 # 3. Списки (Lists):
-#
 # Напишіть функцію для обчислення середнього значення списку чисел.
 
 def average_value(nums):
